@@ -1,7 +1,9 @@
+import { HttpClientModule } from '@angular/common/http';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
@@ -29,9 +31,8 @@ import { ManetteComponent } from './components/Peripheriques-Accessoires/Périph
 import { SacPCComponent } from './components/Peripheriques-Accessoires/Accessoires/sac-pc/sac-pc.component';
 import { TapisComponent } from './components/Peripheriques-Accessoires/Accessoires/tapis/tapis.component';
 import { LampeComponent } from './components/Peripheriques-Accessoires/Accessoires/lampe/lampe.component';
-
-
-
+import { TabletteTactileComponent } from './components/ordinateur/tablette-tactile/tablette-tactile.component';
+import { ContactComponent } from './components/contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -61,7 +62,9 @@ import { LampeComponent } from './components/Peripheriques-Accessoires/Accessoir
     ManetteComponent,
     SacPCComponent,
     TapisComponent,
-    LampeComponent
+    LampeComponent,
+    TabletteTactileComponent,
+    ContactComponent
 
     
 
@@ -69,7 +72,8 @@ import { LampeComponent } from './components/Peripheriques-Accessoires/Accessoir
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

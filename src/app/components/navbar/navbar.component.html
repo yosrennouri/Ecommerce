@@ -5,41 +5,7 @@
             <div class="row">
                 <div class="col-lg-3 col-md-5 col-12">
                     <div class="top-bar-left">
-                        <!-- welcome -->
-                        <div class="welcome">
-                            <p> bienvenue dans notre SiteWeb !</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-9 col-md-7 col-12">
-                    <div class="top-bar-right pull-right clearfix text-uppercase">
-                        <!-- language-menu -->
-                        <div class="language-menu pull-left">
-                            <select class="nice-select-menu" style="display: none;">
-                                <option data-display="Français">Français</option>
-                                <option value="1">Chinese</option>
-                                <option value="2">Spanish</option>
-                                <option value="3">Russian</option>
-                                <option value="4">Hindi</option>
-                                <option value="5">Arabic</option>
-                            </select><div class="nice-select nice-select-menu" tabindex="0"><span class="current">Français</span><ul class="list"><li data-value="Français" data-display="Français" class="option selected">Français</li><li data-value="1" class="option">Chinese</li><li data-value="2" class="option">Spanish</li><li data-value="3" class="option">Russian</li><li data-value="4" class="option">Hindi</li><li data-value="5" class="option">Arabic</li></ul></div> 
-                        </div>
-                        <!-- currency-menu -->
-                        <div class="currency-menu pull-left">
-                            <select class="nice-select-menu" style="display: none;">
-                                <option data-display="TND">TND</option>
-                                <option value="1">CHF</option>
-                                <option value="2">EUR</option>
-                                <option value="3" disabled="">TAKA</option>
-                                <option value="4">GBP</option>
-                            </select><div class="nice-select nice-select-menu" tabindex="0"><span class="current">TND</span><ul class="list"><li data-value="TND" data-display="TND" class="option selected">TND</li><li data-value="1" class="option">CHF</li><li data-value="2" class="option">EUR</li><li data-value="3" class="option disabled">TAKA</li><li data-value="4" class="option">GBP</li></ul></div> 
-                        </div>
-                        <!-- login-register -->
-                        <ul class="login-register pull-left">
-                            <li><a href="login.html">Se connecter</a></li>
-                            <li>Ou</li>
-                            <li><a href="login.html">Créer un compte </a></li>
-                        </ul>
+                        
                     </div>
                 </div>
             </div>
@@ -53,7 +19,7 @@
                 <div class="col-lg-3 col-12">
                     <!-- site-logo -->
                     <div class="site-logo">
-                        <a href="index.html"><img src="src\assets\images\logo\logo.png" alt="Nikado"></a>
+                        <a routerLink="/product_list"><img src="src\assets\images\logo\logo.png" alt="Nikado"></a>
                     </div>
                 </div>
                 <div class="col-lg-7 col-12">
@@ -81,20 +47,20 @@
                     <!-- shop-cart-menu -->
                     <div class="shop-cart-menu pull-right">
                         <ul>
-                            <li><a href="wishlist.html"><i class="fa fa-heart-o"></i></a></li>
-                            <li><a href="#"><i class="fa fa-shopping-bag"></i><sup>3</sup></a>
+                            <li><a routerLink="wishlist.html"><i class="fa fa-heart-o"></i></a></li>
+                            <li><a routerLink="#"><i class="fa fa-shopping-bag"></i><sup>3</sup></a>
                                 <ul>
                                     <li>
                                         <!-- single-shop-cart-wrapper -->
                                         <div class="single-shop-cart-wrapper">
                                             <div class="shop-cart-img">
-                                                <a href="#"><img src="src\assets\images\product\1.jpg" alt="Image of Product"></a>
+                                                <a routerLink="#"><img src="src\assets\images\product\1.jpg" alt="Image of Product"></a>
                                             </div>
                                             <div class="shop-cart-info">
-                                                <h5><a href="single-product.html">Péripheriques t-shirt men</a></h5>
+                                                <h5><a routerLink="single-product.html">Péripheriques t-shirt men</a></h5>
                                                 <span class="price">515.00</span>
                                                 <span class="quantaty">Qty: 1</span>
-                                                <span class="cart-remove"><a href="#"><i class="fa fa-times"></i></a></span>
+                                                <span class="cart-remove"><a routerLink="#"><i class="fa fa-times"></i></a></span>
                                             </div>
                                         </div>
                                     </li>
@@ -102,13 +68,13 @@
                                         <!-- single-shop-cart-wrapper -->
                                         <div class="single-shop-cart-wrapper">
                                             <div class="shop-cart-img">
-                                                <a href="#"><img src="src\assets\images\product\2.jpg" alt="Image of Product"></a>
+                                                <a routerLink="#"><img src="src\assets\images\product\2.jpg" alt="Image of Product"></a>
                                             </div>
                                             <div class="shop-cart-info">
-                                                <h5><a href="single-product.html">Flash Disque</a></h5>
+                                                <h5><a routerLink="single-product.html">Flash Disque</a></h5>
                                                 <span class="price">100.00</span>
                                                 <span class="quantaty">Qty: 1</span>
-                                                <span class="cart-remove"><a href="#"><i class="fa fa-times"></i></a></span>
+                                                <span class="cart-remove"><a routerLink="#"><i class="fa fa-times"></i></a></span>
                                             </div>
                                         </div>
                                     </li>
@@ -116,13 +82,13 @@
                                         <!-- single-shop-cart-wrapper -->
                                         <div class="single-shop-cart-wrapper">
                                             <div class="shop-cart-img">
-                                                <a href="#"><img src="src\assets\images\product\3.jpg" alt="Image of Product"></a>
+                                                <a routerLink="#"><img src="src\assets\images\product\3.jpg" alt="Image of Product"></a>
                                             </div>
                                             <div class="shop-cart-info">
-                                                <h5><a href="single-product.html">Imprimante</a></h5>
+                                                <h5><a routerLink="single-product.html">Imprimante</a></h5>
                                                 <span class="price">265.00</span>
                                                 <span class="quantaty">Qty: 1</span>
-                                                <span class="cart-remove"><a href="#"><i class="fa fa-times"></i></a></span>
+                                                <span class="cart-remove"><a routerLink="#"><i class="fa fa-times"></i></a></span>
                                             </div>
                                         </div>
                                     </li>
@@ -134,8 +100,8 @@
                                     </li>
                                     <li>
                                         <div class="shop-cart-btn">
-                                            <a href="checkout.html">Checkout</a>
-                                            <a href="cart.html" class="pull-right">View Cart</a>
+                                            <a routerLink="checkout.html">Checkout</a>
+                                            <a routerLink="cart.html" class="pull-right">View Cart</a>
                                         </div>
                                     </li>
                                 </ul>
@@ -166,32 +132,32 @@
                     <div class="main-menu">
                         <nav style="display: block;">
                             <ul>
-                                <li ><a href="index.html">Ordinateur <i class="fa fa-angle-down"></i></a>
+                                <li ><a routerLink="index.html">Ordinateur <i class="fa fa-angle-down"></i></a>
                                     <ul class="submenu">
-                                        <li><a href="index.html">Ordinateurs de Bureau </a></li>
-                                        <li><a href="index-2.html">PC portable</a></li>
-                                        <li><a href="index-3.html">Tablette Tactile</a></li>
+                                        <li><a routerLink="/ordinateur">Ordinateurs de Bureau </a></li>
+                                        <li><a routerLink="/pc">PC portable</a></li>
+                                        <li><a routerLink="/tablette_tactile">Tablette Tactile</a></li>
   
                                     </ul>
   
                                 </li>
-                                <li ><a href="shop.html">Stockage <i class="fa fa-angle-down"></i></a>
+                                <li ><a routerLink="shop.html">Stockage <i class="fa fa-angle-down"></i></a>
                                   <ul class="submenu">
-                                      <li><a href="index.html">Disques internes </a></li>
-                                      <li><a href="index-2.html">Disques durs externes</a></li>
-                                      <li><a href="index-3.html"> Clé-USB </a></li>
-                                      <li><a href="index-3.html"> Carte Mémoire  </a></li>
+                                      <li><a routerLink="/disque_interne">Disques internes </a></li>
+                                      <li><a routerLink="/disque_externe">Disques durs externes</a></li>
+                                      <li><a routerLink="/clé_USB"> Clé-USB </a></li>
+                                      <li><a routerLink="/carte_mémoire"> Carte Mémoire  </a></li>
   
                                   </ul>
   
                                 </li>
                               
   
-                                <li ><a href="portfolio.html">Impression <i class="fa fa-angle-down"></i></a>
+                                <li ><a routerLink="portfolio.html">Impression <i class="fa fa-angle-down"></i></a>
                                   <ul class="submenu">
-                                      <li><a href="index.html">Imprimantes </a></li>
-                                      <li><a href="index-2.html">Photocopieurs</a></li>
-                                      <li><a href="index-3.html"> Scanners</a></li>
+                                      <li><a routerLink="/imprimante">Imprimantes </a></li>
+                                      <li><a routerLink="/photocopieur">Photocopieurs</a></li>
+                                      <li><a routerLink="/scanner"> Scanners</a></li>
                                      
   
                                   </ul>
@@ -200,23 +166,23 @@
   
   
   
-                                <li><a href="#">Périphériques &amp; Accessoires <i class="fa fa-angle-down"></i></a>
+                                <li><a routerLink="#">Périphériques &amp; Accessoires <i class="fa fa-angle-down"></i></a>
                                   <ul class="megamenu-3-column">
-                                      <li><a href="#">Périphériques</a>
+                                      <li><a routerLink="#">Périphériques</a>
                                           <ul>
-                                              <li><a href="about.html">Souris</a></li>
-                                              <li><a href="contact.html">Clavier</a></li>
-                                              <li><a href="service.html">Webcam</a></li>
-                                              <li><a href="faq.html">Casques</a></li>
-                                              <li><a href="faq.html">Manette</a></li>
+                                              <li><a routerLink="/souris">Souris</a></li>
+                                              <li><a routerLink="/clavier">Clavier</a></li>
+                                              <li><a routerLink="/web_cam">Webcam</a></li>
+                                              <li><a routerLink="/casque">Casques</a></li>
+                                              <li><a routerLink="/manette">Manette</a></li>
                                               
                                           </ul>
                                       </li>
-                                      <li><a href="#">Accessoires</a>
+                                      <li><a routerLink="#">Accessoires</a>
                                           <ul>
-                                              <li><a href="blog-without-sidebar.html">sac de PC </a></li>
-                                              <li><a href="blog-left-sidebar.html">Tapis</a></li>
-                                              <li><a href="blog-gallery-format.html">Lampe de bureau</a></li>
+                                              <li><a routerLink="/sac_pc">sac de PC </a></li>
+                                              <li><a routerLink="/tapis">Tapis</a></li>
+                                              <li><a routerLink="/lampe">Lampe de bureau</a></li>
                                               
                                           </ul>
                                       </li>
@@ -225,12 +191,12 @@
                                  </li>
   
   
-                              <li ><a href="portfolio.html">Composants informatiques<i class="fa fa-angle-down"></i></a>
+                              <li ><a routerLink="portfolio.html">Composants informatiques<i class="fa fa-angle-down"></i></a>
                                   <ul class="submenu">
-                                      <li><a href="index.html">Processseur </a></li>
-                                      <li><a href="index-2.html">Ventilateur</a></li>
-                                      <li><a href="index-3.html"> Carte mère </a></li>
-                                      <li><a href="index-3.html"> Carte graphique</a></li>
+                                      <li><a routerLink="/processeur">Processseur </a></li>
+                                      <li><a routerLink="/ventilateur">Ventilateur</a></li>
+                                      <li><a routerLink="/carte_mère"> Carte mère </a></li>
+                                      <li><a routerLink="/carte_graphique"> Carte graphique</a></li>
   
                                   </ul>
   
