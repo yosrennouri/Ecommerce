@@ -1,3 +1,4 @@
+import { AProposComponent } from './components/a-propos/a-propos.component';
 import { ContactComponent } from './components/contact/contact.component';
 
 import { NgModule} from '@angular/core';
@@ -52,7 +53,8 @@ const appRoutes: Routes = [
     { path: 'web_cam', component:WebCamComponent },
     { path: 'tablette_tactile', component:TabletteTactileComponent },
     { path: 'product_list', component:ProductListComponent },
-    { path: 'contact', component:ContactComponent }, 
+    { path: 'contact', component:ContactComponent },
+    { path: 'Propos', component:AProposComponent }, 
    ]
 
 @NgModule({

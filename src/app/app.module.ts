@@ -33,6 +33,7 @@ import { TapisComponent } from './components/Peripheriques-Accessoires/Accessoir
 import { LampeComponent } from './components/Peripheriques-Accessoires/Accessoires/lampe/lampe.component';
 import { TabletteTactileComponent } from './components/ordinateur/tablette-tactile/tablette-tactile.component';
 import { ContactComponent } from './components/contact/contact.component';
+import { AProposComponent } from './components/a-propos/a-propos.component';
 
 @NgModule({
   declarations: [
@@ -64,7 +65,8 @@ import { ContactComponent } from './components/contact/contact.component';
     TapisComponent,
     LampeComponent,
     TabletteTactileComponent,
-    ContactComponent
+    ContactComponent,
+    AProposComponent
 
     
 
