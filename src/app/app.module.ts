@@ -35,6 +35,7 @@ import { TabletteTactileComponent } from './components/ordinateur/tablette-tacti
 import { ContactComponent } from './components/contact/contact.component';
 import { AProposComponent } from './components/a-propos/a-propos.component';
 import { NotFoundComponent } from './components/not-found/not-found.component';
+import { LoginComponent } from './components/login/login.component';
 
 @NgModule({
   declarations: [
@@ -68,7 +69,8 @@ import { NotFoundComponent } from './components/not-found/not-found.component';
     TabletteTactileComponent,
     ContactComponent,
     AProposComponent,
-    NotFoundComponent
+    NotFoundComponent,
+    LoginComponent
 
     
 

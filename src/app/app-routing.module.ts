@@ -1,3 +1,6 @@
+import { LoginComponent } from './components/login/login.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
+import { NotFoundComponent } from './components/not-found/not-found.component';
 import { AProposComponent } from './components/a-propos/a-propos.component';
 import { ContactComponent } from './components/contact/contact.component';
 
@@ -28,7 +31,7 @@ import { DisquesInternesComponent } from './components/stockage/disques-internes
 import { TabletteTactileComponent } from './components/ordinateur/tablette-tactile/tablette-tactile.component';
 
 const appRoutes: Routes = [
-    { path: '', redirectTo: '/', pathMatch:'full'},
+    { path: '', redirectTo: '/product-list', pathMatch:'full'},
     { path: 'imprimante', component:ImprimanteComponent },
     { path: 'photocopieur', component:PhotocopieurComponent },
     { path: 'scanner', component:ScannerComponent },
@@ -39,6 +42,7 @@ const appRoutes: Routes = [
     { path: 'disque_externe', component:DisquesExternesComponent },
     { path: 'disque_interne', component:DisquesInternesComponent },
     { path: 'carte_graphique', component:CarteGraphiqueComponent },
+    {path:'navbar',component:NavbarComponent},
 
     { path: 'carte_mère', component: CarteMereComponent},
     { path: 'processeur', component: ProcesseurComponent},
@@ -55,6 +59,8 @@ const appRoutes: Routes = [
     { path: 'product_list', component:ProductListComponent },
     { path: 'contact', component:ContactComponent },
     { path: 'Propos', component:AProposComponent }, 
+    { path: 'not-found', component:NotFoundComponent},
+    { path:'login', component:LoginComponent}
    ]
 
 @NgModule({
