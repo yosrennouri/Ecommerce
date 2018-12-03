@@ -28,7 +28,7 @@ import { DisquesInternesComponent } from './components/stockage/disques-internes
 import { TabletteTactileComponent } from './components/ordinateur/tablette-tactile/tablette-tactile.component';
 
 const appRoutes: Routes = [
-    { path: '', redirectTo: '/product_list', pathMatch:'full'},
+    { path: '', redirectTo: '/', pathMatch:'full'},
     { path: 'imprimante', component:ImprimanteComponent },
     { path: 'photocopieur', component:PhotocopieurComponent },
     { path: 'scanner', component:ScannerComponent },

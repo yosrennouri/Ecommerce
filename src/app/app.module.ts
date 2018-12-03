@@ -34,6 +34,7 @@ import { LampeComponent } from './components/Peripheriques-Accessoires/Accessoir
 import { TabletteTactileComponent } from './components/ordinateur/tablette-tactile/tablette-tactile.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { AProposComponent } from './components/a-propos/a-propos.component';
+import { NotFoundComponent } from './components/not-found/not-found.component';
 
 @NgModule({
   declarations: [
@@ -66,7 +67,8 @@ import { AProposComponent } from './components/a-propos/a-propos.component';
     LampeComponent,
     TabletteTactileComponent,
     ContactComponent,
-    AProposComponent
+    AProposComponent,
+    NotFoundComponent
 
     
 
